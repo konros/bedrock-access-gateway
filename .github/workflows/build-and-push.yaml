@@ -1,6 +1,7 @@
 name: Build and Push BAG to GHCR
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
